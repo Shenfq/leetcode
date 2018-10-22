@@ -25,51 +25,6 @@ var findMedianSortedArrays = function(nums1, nums2) {
   }
 };
 */
-var findMedianSortedArrays = function (nums1, nums2) {
-
-  function findKth(A, startOfA, B, startOfB, k) {
-    console.log(startOfA, startOfB, k)
-    const m = A.length
-    const n = B.length
-    if (startOfA >= m) {
-      return B[startOfB + k - 1];
-    }
-    if (startOfB >= n) {
-      return A[startOfA + k - 1];
-    }
-    if (k === 1) {
-      return Math.min(A[startOfA], B[startOfB])
-    }
-
-    const IndexOfA = Math.floor((startOfA + k) / 2) - 1
-    const halfKthOfA = IndexOfA < m
-        ? A[IndexOfA]
-        : Number.MAX_SAFE_INTEGER
-    const IndexOfB = Math.floor((startOfB + k) / 2) - 1
-    const halfKthOfB = IndexOfB < n
-        ? B[IndexOfB]
-        : Number.MAX_SAFE_INTEGER
-
-    if (halfKthOfA < halfKthOfB) {
-      return findKth(A, startOfA + Math.floor(k / 2), B, startOfB, k - Math.floor(k / 2));
-    } else {
-      return findKth(A, startOfA, B, startOfB + Math.floor(k / 2), k - Math.floor(k / 2));
-    }
-  }
-
-  const count = nums1.length + nums2.length
-
-  // 判断两个数组长度和是奇数还是偶数
-  if (count % 2 === 1) {
-    return findKth(nums1, 0, nums2, 0, (count + 1) / 2)
-  } else {
-    return (
-      findKth(nums1, 0, nums2, 0, count / 2) +
-      findKth(nums1, 0, nums2, 0, count / 2 + 1)
-    ) / 2
-  }
-};
-
 
 var findMedianSortedArrays = function(nums1, nums2) {
   // 找到 A，B 数组中，第 k 小的数
