@@ -3,7 +3,7 @@
 
 | # | 标题 | 代码 | 说明 | 难度 |
 |:---:|:---:|:---:|:---:|:---:|
-| 6 | [最长回文子串](https://leetcode-cn.com/problems/reverse-integer/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/005-reverse-integer/index.js) | | Easy |
+| 6 | [反转整数](https://leetcode-cn.com/problems/reverse-integer/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/005-reverse-integer/index.js) | | Easy |
 | 5 | [最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/005-longest-palindromic-substring/index.js) | | Medium |
 | 4 | [两个排序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/004-median-of-two-sorted-arrays/index.js) | | Hard |
 | 3 | [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/003-longest-substring-without-repeating-characters/index.js) | | Medium |
