@@ -2,7 +2,7 @@
 
 | # | 标题 | 代码 | 说明 | 难度 |
 |:---:|:---:|:---:|:---:|:---:|
-| 10 | [正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/010-regular-expression-matching/index.js) | | Easy |
+| 10 | [正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/010-regular-expression-matching/index.js) | | Hard |
 | 9 | [回文数](https://leetcode-cn.com/problems/palindrome-number/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/009-palindrome-number/index.js) | | Easy |
 | 8 | [字符串转整数](https://leetcode-cn.com/problems/string-to-integer-atoi/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/008-string-to-integer-atoi/index.js) | | Medium |
 | 7 | [反转整数](https://leetcode-cn.com/problems/reverse-integer/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/007-reverse-integer/index.js) | | Easy |
