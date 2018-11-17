@@ -29,7 +29,6 @@ var convert = function (s, numRows) {
   let idx = 0, step = 1
   for (let i = 0; i < len; i++) {
     result[idx] += s[i]
-    console.log(result)
     if (idx === 0) {
       step = 1
     } else if (idx === rowLen) {
