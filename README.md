@@ -2,6 +2,8 @@
 
 | # | 标题 | 代码 | 说明 | 难度 |
 |:---:|:---:|:---:|:---:|:---:|
+| 13 | [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/014-longest-common-prefix/index.js) |  | Easy |
+| 13 | [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/013-roman-to-integer/index.js) |  | Easy |
 | 12 | [整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/012-integer-to-roman/index.js) |  | Medium |
 | 11 | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/011-container-with-most-water/index.js) | [解法](https://github.com/Shenfq/leetcode/blob/master/problems/011-container-with-most-water/README.md)  | Medium |
 | 10 | [正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/010-regular-expression-matching/index.js) | | Hard |
