@@ -11,7 +11,7 @@
  * @param {number[]} height
  * @return {number}
  */
-var maxArea = function(height) {
+var maxArea = module.exports = function(height) {
   let l = 0
   let r = height.length - 1
   let Area = 0
@@ -32,8 +32,4 @@ var maxArea = function(height) {
     }
   }
   return Area
-};
-
-console.log(
-  maxArea([1,8,6,2,5,4,8,3,7])
-)
+}

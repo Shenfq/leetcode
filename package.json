@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava -t | tap-nyan",
+    "test:one": "ava -v script/test-one.js --",
+    "test:verbose": "ava -v"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,15 @@
   "bugs": {
     "url": "https://github.com/Shenfq/leetcode/issues"
   },
-  "homepage": "https://github.com/Shenfq/leetcode#readme"
+  "homepage": "https://github.com/Shenfq/leetcode#readme",
+  "devDependencies": {
+    "ava": "1.0.0-rc.2",
+    "glob": "^7.1.3",
+    "tap-nyan": "^1.1.0"
+  },
+  "ava": {
+    "files": [
+      "script/test.js"
+    ]
+  }
 }

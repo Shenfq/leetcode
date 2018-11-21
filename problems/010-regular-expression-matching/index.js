@@ -41,7 +41,7 @@
  * @param {string} p
  * @return {boolean}
  */
-var isMatch = function(s, p) {
+var isMatch = module.exports =function(s, p) {
   /*
   // 作弊式解法。。。
   p = '^' + p + '$'
@@ -70,10 +70,4 @@ var isMatch = function(s, p) {
     return false
   }
   return helper(s.length - 1, p.length - 1)
-};
-
-console.log(
-  isMatch('aa', 'c*'),
-  isMatch('aab', 'c*a*b'),
-  isMatch("mississippi", "mis*is*ip*"),
-)
+}

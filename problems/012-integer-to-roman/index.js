@@ -31,7 +31,7 @@
  * @param {number} num
  * @return {string}
  */
-var intToRoman = function (num) {
+var intToRoman = module.exports = function (num) {
   if (num < 1 || num > 3999) {
     throw new Error('num size error')
   }
@@ -61,10 +61,4 @@ var intToRoman = function (num) {
   }
 
   return result
-};
-
-// "LVIII" "MCMXCIV"
-console.log(
-  intToRoman(58),
-  intToRoman(1994)
-)
+}

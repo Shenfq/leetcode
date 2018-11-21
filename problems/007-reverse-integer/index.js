@@ -11,7 +11,7 @@
  * @param {number} x
  * @return {number}
  */
-var reverse = function (x) {
+var reverse = module.exports = function (x) {
   if (x == 0) {
     return 0
   }
@@ -32,11 +32,4 @@ var reverse = function (x) {
     return 0
   }
   return result
-};
-
-// -321
-// 21
-console.log(
-  reverse(-123),
-  reverse(120)
-)
+}

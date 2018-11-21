@@ -18,7 +18,7 @@
  * @param {number} x
  * @return {boolean}
  */
-var isPalindrome = function(x) {
+var isPalindrome = module.exports =function(x) {
   // 方法一：转成字符串，判断翻转后是否相等
   /*
   if (x < 0) {
@@ -50,10 +50,4 @@ var isPalindrome = function(x) {
     x = Math.floor(x / 10)
   }
   return x === reverse || x === Math.floor(reverse / 10)
-};
-
-console.log(
-  isPalindrome(1221),
-  isPalindrome(12321),
-  isPalindrome(100)
-)
+}

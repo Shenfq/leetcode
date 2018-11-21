@@ -9,7 +9,7 @@
  * @param {string[]} strs
  * @return {string}
  */
-var longestCommonPrefix = function (strs) {
+var longestCommonPrefix = module.exports = function (strs) {
   if (strs.length === 0) return ''
   // 排序之后只要比较第一个字符串和最后一个就能找到公共前缀
   strs.sort()
@@ -26,4 +26,4 @@ var longestCommonPrefix = function (strs) {
     }
   }
   return res
-};
+}

@@ -9,7 +9,7 @@
  * @param {string} digits
  * @return {string[]}
  */
-var letterCombinations = function(digits) {
+var letterCombinations = module.exports = function(digits) {
   if (!digits || digits.length === 0) {
     return []
   }
@@ -40,9 +40,4 @@ var letterCombinations = function(digits) {
     }
   }
   return res
-};
-
-
-console.log(
-  letterCombinations("239")
-)
+}

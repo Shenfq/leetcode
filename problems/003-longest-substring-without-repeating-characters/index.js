@@ -8,7 +8,7 @@
  * @param {string} s
  * @return {number}
  */
-var lengthOfLongestSubstring = function (s) {
+var lengthOfLongestSubstring = module.exports = function (s) {
   const map = {}
   let result = 0
   let start = 0
@@ -22,9 +22,4 @@ var lengthOfLongestSubstring = function (s) {
   }
 
   return result
-};
-
-// 3
-console.log(
-  lengthOfLongestSubstring('abcabcbb')
-)
+}

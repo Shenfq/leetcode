@@ -10,7 +10,7 @@
  * @param {number} target
  * @return {number}
  */
-var threeSumClosest = function(nums, target) {
+var threeSumClosest = module.exports = function(nums, target) {
   nums = nums.sort((a, b) => a - b)
   let ret = Number.MAX_SAFE_INTEGER
   for (let i = 0, len = nums.length; i < len - 2; i++) {
@@ -36,8 +36,4 @@ var threeSumClosest = function(nums, target) {
     }
   }
   return ret
-};
-
-console.log(
-  threeSumClosest([-1, 2, 1, -4], 1)
-)
+}

@@ -12,7 +12,7 @@
  * @param {number[]} nums
  * @return {number[][]}
  */
-var threeSum = function(nums) {
+var threeSum = module.exports = function(nums) {
   nums = nums.sort((a, b) => a - b)
   const result = []
   for (let i = 0, len = nums.length; i < len - 2; i++) {
@@ -40,8 +40,4 @@ var threeSum = function(nums) {
     }
   }
   return result
-};
-
-console.log(
-  threeSum([-1, 0, 1, 2, -1, -4])
-)
+}

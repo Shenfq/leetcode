@@ -19,7 +19,7 @@
  * @param {number} numRows
  * @return {string}
  */
-var convert = function (s, numRows) {
+var convert = module.exports = function (s, numRows) {
   const len = s.length
   if (numRows <= 1 || len <= numRows) {
     return s
@@ -37,8 +37,4 @@ var convert = function (s, numRows) {
     idx += step
   }
   return result.join('')
-};
-
-console.log(
-  convert('PAYPALISHIRING', 4)
-)
+}

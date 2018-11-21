@@ -10,7 +10,7 @@
  * @param {number} target
  * @return {number[]}
  */
-var twoSum = function(nums, target) {
+var twoSum = module.exports = function(nums, target) {
   //空间换时间
   var tmp = {}
   for (let i = 0, len = nums.length; i < len; i++) {
@@ -23,7 +23,4 @@ var twoSum = function(nums, target) {
   }
 
   return [];
-};
-console.log(twoSum(
-  [1, 3, 4, 6], 9
-))
+}

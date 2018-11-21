@@ -4,7 +4,7 @@
  * @param {string} s
  * @return {number}
  */
-var romanToInt = function (s) {
+var romanToInt = module.exports =function (s) {
   const map = {
     'M': 1000,
     'D': 500,
@@ -28,10 +28,4 @@ var romanToInt = function (s) {
   }
 
   return result
-};
-
-// 58 1994
-console.log(
-  romanToInt('LVIII'),
-  romanToInt('MCMXCIV')
-)
+}

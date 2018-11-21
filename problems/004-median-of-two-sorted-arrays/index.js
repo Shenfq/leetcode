@@ -26,7 +26,7 @@ var findMedianSortedArrays = function(nums1, nums2) {
 };
 */
 
-var findMedianSortedArrays = function(nums1, nums2) {
+var findMedianSortedArrays = module.exports = function(nums1, nums2) {
   // 找到 A，B 数组中，第 k 小的数
   var findKth = function(A, B, k) {
     let lenA = A.length,
@@ -63,11 +63,4 @@ var findMedianSortedArrays = function(nums1, nums2) {
         findKth(nums1, nums2, count / 2 + 1)
       ) / 2
   }
-};
-
-console.log(
-  findMedianSortedArrays(
-    [2,3,4],
-    [1]
-  )
-)
+}

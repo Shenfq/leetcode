@@ -13,7 +13,7 @@
  * @param {string} str
  * @return {number}
  */
-var myAtoi = function (str) {
+var myAtoi = module.exports = function (str) {
   str = str.trim()
   if (str === '') {
     return 0
@@ -42,11 +42,4 @@ var myAtoi = function (str) {
     return -(2 ** 31)
   }
   return number
-};
-
-console.log(
-  myAtoi('qwer3623532452'),
-  myAtoi('-23523623532452'),
-  myAtoi('+1423'),
-  myAtoi('    -234')
-)
+}

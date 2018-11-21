@@ -8,7 +8,7 @@
  * @param {string} s
  * @return {string}
  */
-var longestPalindrome = function(s) {
+var longestPalindrome = module.exports = function(s) {
   const str = `#${s.split('').join('#')}#`
   const len = str.length
   let RL = Array(len)
@@ -40,8 +40,4 @@ var longestPalindrome = function(s) {
   const start = Math.floor((maxIndex - (MaxLen - 1)) / 2)
   const palindrome = s.slice(start, start + MaxLen - 1)
   return palindrome
-};
-
-console.log(
-  longestPalindrome('abaddeedd')
-)
+}
