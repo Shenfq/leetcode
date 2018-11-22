@@ -38,7 +38,7 @@ if (!fs.existsSync(programPath)) {
  * @param {}
  * @return {}
  */
-var ${dirName} = module.exports = function(nums, target) {
+var ${dirName} = module.exports = function() {
 
 }
  `)
