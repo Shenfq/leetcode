@@ -6,7 +6,8 @@
   "scripts": {
     "test": "ava -t script/test.js | tap-nyan",
     "test:one": "ava -v script/test-one.js --",
-    "test:verbose": "ava -v"
+    "test:verbose": "ava -v",
+    "new": "node script/new.js"
   },
   "repository": {
     "type": "git",

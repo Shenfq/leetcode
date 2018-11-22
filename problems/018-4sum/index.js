@@ -16,7 +16,7 @@
  * @param {number} target
  * @return {number[][]}
  */
-var fourSum = module.exports =function(nums, target) {
+var fourSum = module.exports = function(nums, target) {
   let result = []
   const len = nums.length
   if (len < 4) {
