@@ -2,6 +2,7 @@
 
 | # | 标题 | 代码 | 说明 | 难度 |
 |:---:|:---:|:---:|:---:|:---:|
+| 22 | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/022-generate-parentheses/index.js) |  | Medium |
 | 21 | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/021-merge-two-sorted-lists/index.js) |  | Easy |
 | 20 | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/020-valid-parentheses/index.js) |  | Easy |
 | 19 | [删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/019-remove-nth-node-from-end-of-list/index.js) | [解法](https://github.com/Shenfq/leetcode/blob/master/problems/019-remove-nth-node-from-end-of-list/README.md)  | Medium |
