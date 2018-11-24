@@ -11,4 +11,4 @@ module.exports = [
       input: [ListNode.generate([1]), 1],
       output: null
     }
-  ]
+]

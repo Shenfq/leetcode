@@ -2,6 +2,7 @@
 
 | # | 标题 | 代码 | 说明 | 难度 |
 |:---:|:---:|:---:|:---:|:---:|
+| 23 | [合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/023-merge-k-sorted-lists/index.js) |  | Hard |
 | 22 | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/022-generate-parentheses/index.js) |  | Medium |
 | 21 | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/021-merge-two-sorted-lists/index.js) |  | Easy |
 | 20 | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/020-valid-parentheses/index.js) |  | Easy |
