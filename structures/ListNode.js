@@ -14,4 +14,12 @@ class ListNode {
   }
 }
 
-module.exports = ListNode;
+ListNode.generate = list => {
+  const dummy = new ListNode(0)
+  list.reduce((node, val) => {
+    node.next = new ListNode(val)
+    return node.next
+  }, dummy)
+  return dummy.next
+}
+module.exports = ListNode
