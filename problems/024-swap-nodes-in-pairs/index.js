@@ -11,11 +11,11 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-var swapPairs = module.exports = function(head) {
+var swapPairs = (module.exports = function(head) {
   if (!head) return null
   if (!head.next) return head
   const tmp = head.next
   head.next = swapPairs(head.next.next)
   tmp.next = head
   return tmp
-}
+})

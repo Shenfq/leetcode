@@ -13,7 +13,7 @@
  * @return {ListNode}
  */
 const ListNode = require('../../structures/ListNode')
-var removeNthFromEnd = module.exports = function(head, n) {
+var removeNthFromEnd = (module.exports = function(head, n) {
   let dummy = new ListNode(0)
   dummy.next = head
   // 创建快慢指针
@@ -32,4 +32,4 @@ var removeNthFromEnd = module.exports = function(head, n) {
   }
   slow.next = slow.next.next
   return dummy.next
-}
+})

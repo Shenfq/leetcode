@@ -8,7 +8,7 @@
  * @param {string} s
  * @return {string}
  */
-var longestPalindrome = module.exports = function(s) {
+var longestPalindrome = (module.exports = function(s) {
   const str = `#${s.split('').join('#')}#`
   const len = str.length
   let RL = Array(len)
@@ -25,13 +25,13 @@ var longestPalindrome = module.exports = function(s) {
     while (
       i - RL[i] >= 0 &&
       i + RL[i] <= len &&
-      str[i - RL[i]] == str[i + RL[i]]
+      str[i - RL[i]] === str[i + RL[i]]
     ) {
       RL[i] += 1
     }
     if (RL[i] + i - 1 > MaxRight) {
-        MaxRight = RL[i] + i -1
-        pos = i
+      MaxRight = RL[i] + i - 1
+      pos = i
     }
 
     MaxLen = Math.max(MaxLen, RL[i])
@@ -40,4 +40,4 @@ var longestPalindrome = module.exports = function(s) {
   const start = Math.floor((maxIndex - (MaxLen - 1)) / 2)
   const palindrome = s.slice(start, start + MaxLen - 1)
   return palindrome
-}
+})

@@ -12,12 +12,11 @@
  * @param {number} n
  * @return {string[]}
  */
-var generateParenthesis = module.exports = function(n) {
-  function append (str, left, right) {
+var generateParenthesis = (module.exports = function(n) {
+  function append(str, left, right) {
     if (left === n && right === n) {
       ret.push(str)
-    }
-    else {
+    } else {
       if (left < n) {
         append(str + '(', left + 1, right)
       }
@@ -31,4 +30,4 @@ var generateParenthesis = module.exports = function(n) {
   let ret = []
   append('', 0, 0)
   return ret
-}
+})

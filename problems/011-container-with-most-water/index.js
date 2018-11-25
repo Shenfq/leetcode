@@ -11,17 +11,14 @@
  * @param {number[]} height
  * @return {number}
  */
-var maxArea = module.exports = function(height) {
+var maxArea = (module.exports = function(height) {
   let l = 0
   let r = height.length - 1
   let Area = 0
   while (l < r) {
     let lh = height[l]
     let rh = height[r]
-    Area = Math.max(
-      Area,
-      Math.min(lh, rh) * (r - l)
-    )
+    Area = Math.max(Area, Math.min(lh, rh) * (r - l))
     if (lh < rh) {
       l++
     } else if (rh < lh) {
@@ -32,4 +29,4 @@ var maxArea = module.exports = function(height) {
     }
   }
   return Area
-}
+})

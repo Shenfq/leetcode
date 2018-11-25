@@ -13,7 +13,7 @@
  * @param {string} str
  * @return {number}
  */
-var myAtoi = module.exports = function (str) {
+var myAtoi = (module.exports = function(str) {
   str = str.trim()
   if (str === '') {
     return 0
@@ -42,4 +42,4 @@ var myAtoi = module.exports = function (str) {
     return -(2 ** 31)
   }
   return number
-}
+})

@@ -26,41 +26,39 @@ var findMedianSortedArrays = function(nums1, nums2) {
 };
 */
 
-var findMedianSortedArrays = module.exports = function(nums1, nums2) {
+var findMedianSortedArrays = (module.exports = function(nums1, nums2) {
   // 找到 A，B 数组中，第 k 小的数
   var findKth = function(A, B, k) {
-    let lenA = A.length,
-        lenB = B.length
-    if(lenA > lenB)
-        return findKth(B, A, k)
-    if(lenA < 1)
-      return B[k-1]
-    if(lenB < 1)
-      return A[k-1]
-    if(k === 1)
-      return A[0] < B[0] ? A[0] : B[0]
+    let lenA = A.length
+
+    let lenB = B.length
+    if (lenA > lenB) return findKth(B, A, k)
+    if (lenA < 1) return B[k - 1]
+    if (lenB < 1) return A[k - 1]
+    if (k === 1) return A[0] < B[0] ? A[0] : B[0]
 
     let p = Math.floor(k / 2)
     p = p < lenA ? p : lenA
     let q = k - p
 
-    if (A[p-1] < B[q-1]) {
+    if (A[p - 1] < B[q - 1]) {
       return findKth(A.slice(p), B, k - p)
-    } else if (A[p-1] > B[q-1]) {
+    } else if (A[p - 1] > B[q - 1]) {
       return findKth(A, B.slice(q), k - q)
     } else {
-      return A[p-1]
+      return A[p - 1]
     }
   }
 
   const count = nums1.length + nums2.length
   // 判断奇偶
   if (count % 2 === 1) {
-      return findKth(nums1, nums2, (count + 1) / 2)
+    return findKth(nums1, nums2, (count + 1) / 2)
   } else {
-      return (
-        findKth(nums1, nums2, count / 2) +
-        findKth(nums1, nums2, count / 2 + 1)
-      ) / 2
+    return (
+      (findKth(nums1, nums2, count / 2) +
+        findKth(nums1, nums2, count / 2 + 1)) /
+      2
+    )
   }
-}
+})

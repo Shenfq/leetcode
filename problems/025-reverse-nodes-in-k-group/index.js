@@ -15,7 +15,7 @@
  * @param {number} k
  * @return {ListNode}
  */
-var reverseKGroup = module.exports = function(head, k) {
+var reverseKGroup = (module.exports = function(head, k) {
   if (!head) return head
   if (!head.next) return head
   let curr = head
@@ -35,4 +35,4 @@ var reverseKGroup = module.exports = function(head, k) {
     head.next = reverseKGroup(curr, k)
   }
   return prev
-}
+})

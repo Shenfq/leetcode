@@ -41,7 +41,7 @@
  * @param {string} p
  * @return {boolean}
  */
-var isMatch = module.exports =function(s, p) {
+var isMatch = (module.exports = function(s, p) {
   /*
   // 作弊式解法。。。
   p = '^' + p + '$'
@@ -60,7 +60,7 @@ var isMatch = module.exports =function(s, p) {
     }
 
     if (p[j] === More) {
-      if (p[j-1] === Any || p[j-1] === s[i]) {
+      if (p[j - 1] === Any || p[j - 1] === s[i]) {
         if (helper(i - 1, j)) return true
       }
       return helper(i, j - 2)
@@ -70,4 +70,4 @@ var isMatch = module.exports =function(s, p) {
     return false
   }
   return helper(s.length - 1, p.length - 1)
-}
+})

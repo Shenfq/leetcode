@@ -12,15 +12,12 @@ problems.forEach(dirPath => {
   const programPath = path.join(dirPath, 'index.js')
 
   fs.existsSync(testcasesPath) && // 判断测试用例是否存在
-  test(dirName, t => {
-    const program = require(programPath)
-    const testcases = require(testcasesPath)
-    Array.isArray(testcases) || (t.fail())
-    testcases.forEach(testcase => {
-      t.deepEqual(
-        program(...testcase.input),
-        testcase.output
-      )
+    test(dirName, t => {
+      const program = require(programPath)
+      const testcases = require(testcasesPath)
+      Array.isArray(testcases) || t.fail()
+      testcases.forEach(testcase => {
+        t.deepEqual(program(...testcase.input), testcase.output)
+      })
     })
-  })
 })

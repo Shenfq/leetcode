@@ -16,13 +16,13 @@
  * @param {number} target
  * @return {number[][]}
  */
-var fourSum = module.exports = function(nums, target) {
+var fourSum = (module.exports = function(nums, target) {
   let result = []
   const len = nums.length
   if (len < 4) {
     return result
   }
-  nums = nums.sort((a,b) => a - b)
+  nums = nums.sort((a, b) => a - b)
   for (let i = 0; i < len - 3; i++) {
     if (i > 0 && nums[i] === nums[i - 1]) {
       continue
@@ -36,18 +36,16 @@ var fourSum = module.exports = function(nums, target) {
         const sum = nums[i] + nums[j] + nums[l] + nums[r]
         if (sum < target) {
           l++
-        }
-        else if (sum > target) {
+        } else if (sum > target) {
           r--
-        }
-        else {
+        } else {
           result.push([nums[i], nums[j], nums[l], nums[r]])
           l++
           r--
-          while(l < r && nums[l] === nums[l - 1]) {
+          while (l < r && nums[l] === nums[l - 1]) {
             l++
           }
-          while(l < r && nums[r] === nums[r + 1]) {
+          while (l < r && nums[r] === nums[r + 1]) {
             r--
           }
         }
@@ -55,5 +53,4 @@ var fourSum = module.exports = function(nums, target) {
     }
   }
   return result
-}
-
+})

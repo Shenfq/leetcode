@@ -10,17 +10,17 @@
  * @param {number} target
  * @return {number[]}
  */
-var twoSum = module.exports = function(nums, target) {
-  //空间换时间
+var twoSum = (module.exports = function(nums, target) {
+  // 空间换时间
   var tmp = {}
   for (let i = 0, len = nums.length; i < len; i++) {
-      const num = nums[i]
-      const other = target - num
-      if (tmp[other] !== (void 0)) {
-          return [i, tmp[other]]
-      }
-      tmp[num] = i
+    const num = nums[i]
+    const other = target - num
+    if (tmp[other] !== void 0) {
+      return [i, tmp[other]]
+    }
+    tmp[num] = i
   }
 
-  return [];
-}
+  return []
+})

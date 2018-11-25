@@ -12,17 +12,24 @@
  * @return {ListNode}
  */
 const ListNode = require('../../structures/ListNode')
-var addTwoNumbers = module.exports = function (l1, l2) {
-  var head = new ListNode(0),
-    point = head,
-    remain = 0,
-    node1 = l1, node2 = l2
+var addTwoNumbers = (module.exports = function(l1, l2) {
+  var head = new ListNode(0)
+
+  var point = head
+
+  var remain = 0
+
+  var node1 = l1
+  var node2 = l2
 
   while (node1 || node2 || remain > 0) {
-    var num1 = node1 ? node1.val : 0,
-      num2 = node2 ? node2.val : 0,
-      num = num1 + num2 + remain,
-      flow = 0
+    var num1 = node1 ? node1.val : 0
+
+    var num2 = node2 ? node2.val : 0
+
+    var num = num1 + num2 + remain
+
+    var flow = 0
 
     if (num > 9) {
       num = num % 10
@@ -38,4 +45,4 @@ var addTwoNumbers = module.exports = function (l1, l2) {
   }
 
   return head.next
-}
+})

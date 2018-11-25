@@ -11,8 +11,8 @@
  * @param {number} x
  * @return {number}
  */
-var reverse = module.exports = function (x) {
-  if (x == 0) {
+var reverse = (module.exports = function(x) {
+  if (x === 0) {
     return 0
   }
   const numStr = Math.abs(x).toString()
@@ -21,15 +21,15 @@ var reverse = module.exports = function (x) {
 
   for (; i >= 0; i--) {
     result += numStr[i]
-    if (result == 0) {
+    if (result === '0') {
       result = ''
     }
   }
 
-  result = x < 0 ? ('-' + result) : result
+  result = x < 0 ? '-' + result : result
   result = parseInt(result)
-  if (result < -(2 ** 31) || result > (2 ** 31 - 1)) {
+  if (result < -(2 ** 31) || result > 2 ** 31 - 1) {
     return 0
   }
   return result
-}
+})

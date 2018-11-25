@@ -20,7 +20,7 @@
  * @param {string} s
  * @return {boolean}
  */
-var isValid = module.exports = function(s) {
+var isValid = (module.exports = function(s) {
   if (s === '') return true
   const lookup = {
     '(': ')',
@@ -32,8 +32,7 @@ var isValid = module.exports = function(s) {
   for (let char of s) {
     if (lookup[char]) {
       stack.push(char)
-    }
-    else {
+    } else {
       if (char !== lookup[stack.pop()]) {
         return false
       }
@@ -41,4 +40,4 @@ var isValid = module.exports = function(s) {
   }
 
   return stack.length === 0
-}
+})

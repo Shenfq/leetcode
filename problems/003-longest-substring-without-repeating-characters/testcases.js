@@ -1,14 +1,14 @@
 module.exports = [
   {
-    input:  ['abcabcbb'],
+    input: ['abcabcbb'],
     output: 3
   },
   {
-    input:  ['a'],
+    input: ['a'],
     output: 1
   },
   {
-    input:  ['xxxxxx'],
+    input: ['xxxxxx'],
     output: 1
   }
 ]

@@ -18,7 +18,7 @@
  * @param {number} x
  * @return {boolean}
  */
-var isPalindrome = module.exports =function(x) {
+var isPalindrome = (module.exports = function(x) {
   // 方法一：转成字符串，判断翻转后是否相等
   /*
   if (x < 0) {
@@ -46,8 +46,8 @@ var isPalindrome = module.exports =function(x) {
   */
   // 回文数的判断可以只取出一半的数进行对比即可
   while (x > reverse) {
-    reverse = reverse * 10 + x % 10
+    reverse = reverse * 10 + (x % 10)
     x = Math.floor(x / 10)
   }
   return x === reverse || x === Math.floor(reverse / 10)
-}
+})

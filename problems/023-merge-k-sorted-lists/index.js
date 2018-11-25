@@ -11,9 +11,9 @@
  *
  * @param {ListNode[]} lists
  * @return {ListNode}
-*/
+ */
 const ListNode = require('../../structures/ListNode')
-var mergeKLists = module.exports = function (lists) {
+var mergeKLists = (module.exports = function(lists) {
   if (lists.length === 0) return []
   if (lists.length === 1) return lists[0] ? lists[0] : []
   let tmp = []
@@ -32,5 +32,4 @@ var mergeKLists = module.exports = function (lists) {
   }
 
   return dummy.next || []
-}
-
+})

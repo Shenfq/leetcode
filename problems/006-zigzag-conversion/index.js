@@ -19,14 +19,15 @@
  * @param {number} numRows
  * @return {string}
  */
-var convert = module.exports = function (s, numRows) {
+var convert = (module.exports = function(s, numRows) {
   const len = s.length
   if (numRows <= 1 || len <= numRows) {
     return s
   }
   const rowLen = numRows - 1
   const result = new Array(numRows).fill('')
-  let idx = 0, step = 1
+  let idx = 0
+  let step = 1
   for (let i = 0; i < len; i++) {
     result[idx] += s[i]
     if (idx === 0) {
@@ -37,4 +38,4 @@ var convert = module.exports = function (s, numRows) {
     idx += step
   }
   return result.join('')
-}
+})

@@ -10,19 +10,18 @@
  * @param {number} target
  * @return {number}
  */
-var threeSumClosest = module.exports = function(nums, target) {
+var threeSumClosest = (module.exports = function(nums, target) {
   nums = nums.sort((a, b) => a - b)
   let ret = Number.MAX_SAFE_INTEGER
   for (let i = 0, len = nums.length; i < len - 2; i++) {
     if (i > 0 && nums[i] === nums[i - 1]) {
       continue
     }
-    let l = i + 1, r = len - 1
+    let l = i + 1
+    let r = len - 1
     while (l < r) {
       const sum = nums[i] + nums[l] + nums[r]
-      if (
-        Math.abs(sum - target) < Math.abs(ret - target)
-      ) {
+      if (Math.abs(sum - target) < Math.abs(ret - target)) {
         ret = sum
       }
 
@@ -36,4 +35,4 @@ var threeSumClosest = module.exports = function(nums, target) {
     }
   }
   return ret
-}
+})
