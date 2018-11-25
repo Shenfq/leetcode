@@ -2,6 +2,8 @@
 
 | # | 标题 | 代码 | 说明 | 难度 |
 |:---:|:---:|:---:|:---:|:---:|
+| 25 | [k个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/025-reverse-nodes-in-k-group/index.js) |  | Hard |
+| 24 | [两两交换链表中的节点](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/024-reverse-nodes-in-k-group/index.js) |  | Medium |
 | 23 | [合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/023-merge-k-sorted-lists/index.js) |  | Hard |
 | 22 | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/022-generate-parentheses/index.js) |  | Medium |
 | 21 | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/021-merge-two-sorted-lists/index.js) |  | Easy |
