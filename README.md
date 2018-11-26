@@ -2,6 +2,7 @@
 
 | # | 标题 | 代码 | 说明 | 难度 |
 |:---:|:---:|:---:|:---:|:---:|
+| 27 | [移除元素](https://leetcode-cn.com/problems/remove-element/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/026-remove-element/index.js) |  | Easy |
 | 26 | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/026-remove-duplicates-from-sorted-array/index.js) |  | Easy |
 | 25 | [k个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/025-reverse-nodes-in-k-group/index.js) |  | Hard |
 | 24 | [两两交换链表中的节点](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/024-reverse-nodes-in-k-group/index.js) |  | Medium |
