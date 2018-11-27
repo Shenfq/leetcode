@@ -38,9 +38,9 @@ if (!fs.existsSync(programPath)) {
  * @param {}
  * @return {}
  */
-var ${dirName} = module.exports = function() {
+var ${dirName} = (module.exports = function() {
 
-}
+})
  `
   )
   console.log('created: ', programPath)

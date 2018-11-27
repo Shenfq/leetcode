@@ -7,7 +7,7 @@
     "new": "node script/new.js",
     "test": "npm run lint && ava -t script/test.js | tap-nyan",
     "test:one": "ava -v script/test-one.js --",
-    "test:verbose": "ava -v",
+    "test:verbose": "ava -v script/test.js ",
     "lint": "eslint . --fix && echo ESLint Passed.\n\n"
   },
   "repository": {
