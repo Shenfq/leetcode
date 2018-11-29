@@ -2,6 +2,7 @@
 
 | # | 标题 | 代码 | 说明 | 难度 |
 |:---:|:---:|:---:|:---:|:---:|
+| 30 | [与所有单词相关联的字串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/030-substring-with-concatenation-of-all-words/index.js) |  | Medium |
 | 29 | [两数相除](https://leetcode-cn.com/problems/divide-two-integers/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/029-divide-two-integers/index.js) |  | Medium |
 | 28 | [实现strStr()](https://leetcode-cn.com/problems/implement-strstr/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/028-implement-strstr/index.js) |  | Easy |
 | 27 | [移除元素](https://leetcode-cn.com/problems/remove-element/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/027-remove-element/index.js) |  | Easy |
