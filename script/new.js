@@ -58,10 +58,10 @@ if (!fs.existsSync(testcasesPath)) {
   )
   console.log('created: ', testcasesPath)
 }
-// 判断测试用例是否存在
+// 判断readme是否存在
 if (!fs.existsSync(readmePath)) {
   fs.writeFileSync(readmePath, `# ${dirName}`)
   console.log('created: ', testcasesPath)
 }
-console.log(`\r\n`)
 console.log(`${No}-${dirName} generate done!`)
+console.log(`\r\n`)

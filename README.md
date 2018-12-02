@@ -2,6 +2,7 @@
 
 | # | 标题 | 代码 | 说明 | 难度 |
 |:---:|:---:|:---:|:---:|:---:|
+| 32 | [最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/032-longest-valid-parentheses/index.js) |  | Hard |
 | 31 | [下一个排列](https://leetcode-cn.com/problems/next-permutation/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/031-next-permutation/index.js) |  | Medium |
 | 30 | [与所有单词相关联的字串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/030-substring-with-concatenation-of-all-words/index.js) |  | Medium |
 | 29 | [两数相除](https://leetcode-cn.com/problems/divide-two-integers/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/029-divide-two-integers/index.js) |  | Medium |
