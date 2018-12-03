@@ -1,7 +1,33 @@
 # LeetCode
 
+## Script
+
+**新增题目**
+
+```
+npm run new `title`
+```
+
+**测试单个题目**
+
+```
+npm run test:one `题号`
+```
+
+
+**测试所有题目**
+
+测试之前，会进行lint校验。
+
+```
+npm test
+```
+
+## List
+
 | # | 标题 | 代码 | 说明 | 难度 |
 |:---:|:---:|:---:|:---:|:---:|
+| 33 | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/033-search-in-rotated-sorted-array/index.js) |  | Hard |
 | 32 | [最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/032-longest-valid-parentheses/index.js) |  | Hard |
 | 31 | [下一个排列](https://leetcode-cn.com/problems/next-permutation/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/031-next-permutation/index.js) |  | Medium |
 | 30 | [与所有单词相关联的字串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/030-substring-with-concatenation-of-all-words/index.js) |  | Medium |
