@@ -16,7 +16,7 @@ var searchRange = (module.exports = function(nums, target) {
   let ret = [-1, -1]
   if (nums.length === 0) return ret
   let l = 0
-  let r = nums.length -1
+  let r = nums.length - 1
   let mid = 0
   while (l <= r) {
     mid = Math.floor((r + l) / 2)
