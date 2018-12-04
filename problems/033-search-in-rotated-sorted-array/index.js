@@ -23,22 +23,22 @@ var search = (module.exports = function(nums, target) {
   }
   let l = 0
   let r = nums.length - 1
-  while (l + 1 < r) {
+  while (l <= r) {
     let mid = Math.floor((r + l) / 2)
     if (nums[mid] === target) {
       return mid
     }
     if (nums[l] < nums[mid]) {
       if (nums[l] <= target && target <= nums[mid]) {
-        r = mid
+        r = mid - 1
       } else {
-        l = mid
+        l = mid + 1
       }
     } else {
       if (nums[mid] <= target && target <= nums[r]) {
-        l = mid
+        l = mid + 1
       } else {
-        r = mid
+        r = mid - 1
       }
     }
   }
