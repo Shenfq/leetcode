@@ -27,7 +27,9 @@ npm test
 
 | # | 标题 | 代码 | 说明 | 难度 |
 |:---:|:---:|:---:|:---:|:---:|
-| 35 | [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/035-search-insert-position/index.js) |  | Medium |
+| 37 | [解数独](https://leetcode-cn.com/problems/sudoku-solver/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/037-sudoku-solver/index.js) |  | Hard |
+| 36 | [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/036-valid-sudoku/index.js) |  | Medium |
+| 35 | [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/035-search-insert-position/index.js) |  | Easy |
 | 34 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/034-find-first-and-last-position-of-element-in-sorted-array/index.js) |  | Medium |
 | 33 | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/033-search-in-rotated-sorted-array/index.js) |  | Medium |
 | 32 | [最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/032-longest-valid-parentheses/index.js) |  | Hard |
