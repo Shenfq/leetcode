@@ -27,6 +27,7 @@ npm test
 
 | # | 标题 | 代码 | 说明 | 难度 |
 |:---:|:---:|:---:|:---:|:---:|
+| 39 | [组合总和](https://leetcode-cn.com/problems/combination-sum/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/039-combination-sum/index.js) |  | Easy |
 | 38 | [报数](https://leetcode-cn.com/problems/count-and-say/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/038-count-and-say/index.js) |  | Easy |
 | 37 | [解数独](https://leetcode-cn.com/problems/sudoku-solver/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/037-sudoku-solver/index.js) |  | Hard |
 | 36 | [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/036-valid-sudoku/index.js) |  | Medium |
