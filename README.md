@@ -27,8 +27,9 @@ npm test
 
 | # | 标题 | 代码 | 说明 | 难度 |
 |:---:|:---:|:---:|:---:|:---:|
-| 40 | [组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/040-combination-sum-ii/index.js) |  | Easy |
-| 39 | [组合总和](https://leetcode-cn.com/problems/combination-sum/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/039-combination-sum/index.js) |  | Easy |
+| 41 | [缺失的第一个正整数](https://leetcode-cn.com/problems/first-missing-positive/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/041-first-missing-positive/index.js) |  | Hard |
+| 40 | [组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/040-combination-sum-ii/index.js) |  | Medium |
+| 39 | [组合总和](https://leetcode-cn.com/problems/combination-sum/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/039-combination-sum/index.js) |  | Medium |
 | 38 | [报数](https://leetcode-cn.com/problems/count-and-say/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/038-count-and-say/index.js) |  | Easy |
 | 37 | [解数独](https://leetcode-cn.com/problems/sudoku-solver/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/037-sudoku-solver/index.js) |  | Hard |
 | 36 | [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/036-valid-sudoku/index.js) |  | Medium |
