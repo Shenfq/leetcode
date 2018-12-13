@@ -27,6 +27,7 @@ npm test
 
 | # | 标题 | 代码 | 说明 | 难度 |
 |:---:|:---:|:---:|:---:|:---:|
+| 42 | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/042-trapping-rain-water/index.js) |  | Hard |
 | 41 | [缺失的第一个正整数](https://leetcode-cn.com/problems/first-missing-positive/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/041-first-missing-positive/index.js) |  | Hard |
 | 40 | [组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/040-combination-sum-ii/index.js) |  | Medium |
 | 39 | [组合总和](https://leetcode-cn.com/problems/combination-sum/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/039-combination-sum/index.js) |  | Medium |
