@@ -27,6 +27,7 @@ npm test
 
 | # | 标题 | 代码 | 说明 | 难度 |
 |:---:|:---:|:---:|:---:|:---:|
+| 45 | [跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/045-jump-game-ii/index.js) |  | Hard |
 | 44 | [通配符匹配](https://leetcode-cn.com/problems/wildcard-matching/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/044-wildcard-matching/index.js) |  | Hard |
 | 43 | [字符串相乘](https://leetcode-cn.com/problems/multiply-strings/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/043-multiply-strings/index.js) |  | Medium |
 | 42 | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/042-trapping-rain-water/index.js) |  | Hard |
