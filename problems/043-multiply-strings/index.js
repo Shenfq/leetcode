@@ -31,12 +31,11 @@ var multiply = (module.exports = function(num1, num2) {
       ret[i + j] > 0
         ? (ret[i + j] += num1[i] * num2[j])
         : (ret[i + j] = num1[i] * num2[j])
-
     }
   }
-  for(let k = ret.length - 1; k > 0; k--){
+  for (let k = ret.length - 1; k > 0; k--) {
     let curr = ret[k]
-    if(curr >= 10){
+    if (curr >= 10) {
       ret[k - 1] += parseInt(curr / 10)
       ret[k] %= 10
     }

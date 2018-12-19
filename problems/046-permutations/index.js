@@ -19,15 +19,17 @@
 var permutations = (module.exports = function(nums) {
   const ret = []
   const len = nums.length
-  function helper (idx) {
+  if (len <= 1) return [nums]
+
+  function helper(idx) {
     if (idx === len - 1) {
       ret.push(Array.from(nums))
       return
     }
     for (let i = idx; i < len; i++) {
-      [nums[idx], nums[i]] = [nums[i], nums[idx]];
-      helper(idx + 1);
-      [nums[idx], nums[i]] = [nums[i], nums[idx]];
+      ;[nums[idx], nums[i]] = [nums[i], nums[idx]]
+      helper(idx + 1)
+      ;[nums[idx], nums[i]] = [nums[i], nums[idx]]
     }
   }
   helper(0)

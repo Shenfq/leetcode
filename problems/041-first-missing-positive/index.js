@@ -24,11 +24,7 @@ var firstMissingPositive = (module.exports = function(nums) {
   if (len === 0) return 1
   for (let i = 0; i < len; i++) {
     let curr = nums[i]
-    while (
-      curr > 0 &&
-      curr <= len &&
-      curr !== nums[curr - 1]
-    ) {
+    while (curr > 0 && curr <= len && curr !== nums[curr - 1]) {
       nums[i] = nums[curr - 1]
       nums[curr - 1] = curr
       curr = nums[i]
