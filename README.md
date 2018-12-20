@@ -27,6 +27,7 @@ npm test
 
 | # | 标题 | 代码 | 说明 | 难度 |
 |:---:|:---:|:---:|:---:|:---:|
+| 48 | [旋转图像](https://leetcode-cn.com/problems/rotate-image/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/048-rotate-image/index.js) |  | Medium |
 | 47 | [全排列 II](https://leetcode-cn.com/problems/permutations-ii/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/047-permutations-ii/index.js) |  | Medium |
 | 46 | [全排列](https://leetcode-cn.com/problems/permutations/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/046-permutations/index.js) |  | Medium |
 | 45 | [跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/045-jump-game-ii/index.js) |  | Hard |
