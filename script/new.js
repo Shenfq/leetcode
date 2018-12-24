@@ -3,20 +3,28 @@ if (!process.argv[2]) {
   process.exit(1)
 }
 
+function getNo(length) {
+  length = length.toString()
+  const len = length.length
+  if (len === 1) {
+    return `00${length}`
+  } else if (len === 2) {
+    return `0${length}`
+  } else if (len === 3) {
+    return length
+  } else {
+    console.error('error: 题号格式不合法')
+    process.exit(1)
+  }
+}
 const dirName = process.argv[2]
 const path = require('path')
 const glob = require('glob')
 const fs = require('fs')
 const problemPath = path.resolve(__dirname, '../problems')
 const problems = glob.sync(path.resolve(__dirname, '../problems/*'))
-const length = (++problems.length).toString()
-const No =
-  length.length === 1
-    ? `00${length}`
-    : length.length === 2
-    ? `0${length}`
-    : length
-
+const length = process.argv[3] || (++problems.length).toString()
+const No = getNo(length)
 const dirPath = path.join(problemPath, `${No}-${dirName}`)
 
 if (fs.existsSync(dirPath)) {

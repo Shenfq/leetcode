@@ -27,6 +27,7 @@ npm test
 
 | # | 标题 | 代码 | 说明 | 难度 |
 |:---:|:---:|:---:|:---:|:---:|
+| 50 | [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/050-powx-n/index.js) |  | Medium |
 | 49 | [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/049-group-anagrams/index.js) |  | Medium |
 | 48 | [旋转图像](https://leetcode-cn.com/problems/rotate-image/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/048-rotate-image/index.js) |  | Medium |
 | 47 | [全排列 II](https://leetcode-cn.com/problems/permutations-ii/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/047-permutations-ii/index.js) |  | Medium |
