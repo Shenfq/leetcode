@@ -1,3 +1,3 @@
 # valid-sudoku
 
-![img](../../public/question_36.png)
+![img](../../public/question36/1.png)

@@ -30,14 +30,14 @@ var findMedianSortedArrays = (module.exports = function(nums1, nums2) {
   // 找到 A，B 数组中，第 k 小的数
   var findKth = function(A, B, k) {
     let lenA = A.length
-
     let lenB = B.length
+
     if (lenA > lenB) return findKth(B, A, k)
-    if (lenA < 1) return B[k - 1]
-    if (lenB < 1) return A[k - 1]
+    if (lenA === 0) return B[k - 1]
+    if (lenB === 0) return A[k - 1]
     if (k === 1) return A[0] < B[0] ? A[0] : B[0]
 
-    let p = Math.floor(k / 2)
+    let p = parseInt(k / 2)
     p = p < lenA ? p : lenA
     let q = k - p
 

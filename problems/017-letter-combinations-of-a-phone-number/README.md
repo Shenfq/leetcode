@@ -1,1 +1,1 @@
-![img](../../public/question_17.png)
+![img](../../public/question17/1.png)

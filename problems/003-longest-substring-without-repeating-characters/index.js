@@ -11,12 +11,11 @@
 var lengthOfLongestSubstring = (module.exports = function(s) {
   const map = {}
   let result = 0
-  let start = 0
   let len = s.length
   for (let i = 0; i < len; i++) {
     const str = s[i]
     const index = i + 1
-    start = Math.max(start, map[str] || 0)
+    const start = map[str] || 0
     result = Math.max(result, index - start)
     map[str] = index
   }

@@ -11,7 +11,7 @@ Y   I   R
 
 `string convert(string s, int numRows);`
 
-![img](../../public/question_6.jpg)
+![img](../../public/question6/1.jpg)
 
 ### 方法一
 
@@ -60,7 +60,7 @@ var convert = function (s, numRows) {
 
 ### 方法二
 
-![img](../../public/question_6_2.jpg)
+![img](../../public/question6/2.jpg)
 
 看上图，我们可以按照行数，先将字符划分成三个字符子串，然后从上往下，每次往一个子串中插入对应字符。这里我们需要一个偏移量，去计算当前行，是需要往下偏移还是往上偏移。
 
