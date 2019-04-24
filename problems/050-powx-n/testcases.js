@@ -1,6 +1,6 @@
 module.exports = [
   {
-    input: [2.00000, 10],
-    output: 1024.00000
+    input: [2.0, 10],
+    output: 1024.0
   }
 ]
