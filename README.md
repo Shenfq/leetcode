@@ -5,7 +5,7 @@
 **新增题目**
 
 ```
-npm run new `title`
+npm run new `标题` `题号`
 ```
 
 **测试单个题目**
@@ -27,6 +27,7 @@ npm test
 
 | # | 标题 | 代码 | 说明 | 难度 |
 |:---:|:---:|:---:|:---:|:---:|
+| 53 | [最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/053-maximum-subarray/index.js) |  | Hard |
 | 52 | [N皇后 II](https://leetcode-cn.com/problems/n-queens-ii/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/052-n-queens-ii/index.js) |  | Hard |
 | 51 | [N皇后](https://leetcode-cn.com/problems/n-queens/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/051-n-queens/index.js) |  | Hard |
 | 50 | [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/) | [JavaScript](https://github.com/Shenfq/leetcode/blob/master/problems/050-powx-n/index.js) |  | Medium |
