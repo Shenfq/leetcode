@@ -40,16 +40,17 @@ const readmePath = path.join(dirPath, 'README.md')
 
 // 判断js文件是否存在
 if (!fs.existsSync(programPath)) {
+  const name = dirName.replace(/-([a-z])/g, (all, i) => i.toUpperCase())
   fs.writeFileSync(
     programPath,
     `/**
  * @param {}
  * @return {}
  */
-var ${dirName} = (module.exports = function() {
+var ${name} = (module.exports = function() {
 
 })
- `
+`
   )
   console.log('created: ', programPath)
 }
