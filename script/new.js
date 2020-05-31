@@ -70,7 +70,7 @@ if (!fs.existsSync(testcasesPath)) {
 // 判断readme是否存在
 if (!fs.existsSync(readmePath)) {
   fs.writeFileSync(readmePath, `# ${dirName}`)
-  console.log('created: ', testcasesPath)
+  console.log('created: ', readmePath)
 }
 console.log(`${No}-${dirName} generate done!`)
 console.log(`\r\n`)

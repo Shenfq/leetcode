@@ -31,7 +31,7 @@ var spiralOrder = (module.exports = function(matrix) {
     }
     if (++rowStart > rowEnd) break
 
-    for (let i = rowStart; i <= rowEnd; i++){
+    for (let i = rowStart; i <= rowEnd; i++) {
       result.push(matrix[i][colEnd])
     }
     if (--colEnd < colStart) break
