@@ -3,15 +3,35 @@ if (!process.argv[2]) {
   process.exit(1)
 }
 
+function getNo(length) {
+  length = length.toString()
+  const len = length.length
+  if (len === 1) {
+    return `00${length}`
+  } else if (len === 2) {
+    return `0${length}`
+  } else if (len === 3) {
+    return length
+  } else {
+    console.error('error: 题号格式不合法')
+    process.exit(1)
+  }
+}
+
 const test = require('ava')
 const glob = require('glob')
 const path = require('path')
 const fs = require('fs')
 
-const problems = glob.sync(path.resolve(__dirname, '../problems/*'))
-const No = --process.argv[2]
-const dirPath = problems[No]
+const No = getNo(process.argv[2])
+const problems = glob.sync(path.resolve(__dirname, `../problems/${No}*`))
 
+if (!problems || !problems.length) {
+  console.error('error: 题目不存在')
+  process.exit(1)
+}
+
+const [dirPath] = problems
 const dirName = path.relative(path.dirname(dirPath), dirPath)
 
 const testcasesPath = path.join(dirPath, 'testcases.js')
